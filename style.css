@@ -1,17 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-image: linear-gradient(to right, #f6dae4, #d4f0f7);
+}
+
 .my-rounded-left {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
-  
-  .my-rounded-right {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
-  .my-rounded-all {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.my-rounded-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.my-rounded-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
