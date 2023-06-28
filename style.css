@@ -9,6 +9,16 @@
   background-image: linear-gradient(to right, #f6dae4, #d4f0f7);
 }
 
+.nav-link:hover {
+  color: #b8cfec !important;
+}
+
+@media(max-width: 668px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+
 .my-rounded-left {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
